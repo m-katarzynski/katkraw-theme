@@ -1,0 +1,89 @@
+.gallery {
+    background: #5c7db8;
+    width: 100%;
+	padding: 6vh 0;
+}
+
+.gallery h2 {
+	text-align: center;
+}
+
+.gallery .gall {
+	/*max-width: 60vw;*/ /*rozpierdala szrokość wszyskiego poniżej galerii*/
+	
+	padding: 2vh 0;
+}
+
+.gallery .gall h3 {
+	color: #fff;
+	padding: 1vmin 0;
+	-webkit-transition: all 0.7s;
+	transition: all 0.7s;
+}
+
+.gallery .first {
+	
+}
+
+#g1 {
+	display: none;
+}
+
+.gallery .second {
+}
+
+#g2 {
+	display: none;
+
+}
+
+#g3 {
+	display: none;
+}
+
+#g4 {
+	display: none;
+}
+
+.gallery .third {
+	
+}
+
+.gallery .fourth {
+	
+}
+
+.gallery .gall .gallBox {
+	max-width: 60vw;
+	margin: 2vh auto;
+}
+
+/*** Buttons ***/
+.gallery .gallBtn {
+	cursor: pointer;
+    background-color: #78a2ed;
+    padding: 0.5vh;
+    width: 35vw;
+    margin: 0 auto;
+	-webkit-transition: all 0.7s;
+	transition: all 0.7s;
+}
+
+.gallery .gallBtn:hover {
+	background-color: #48669a;
+
+}
+.gallery .gallBtn:hover h3 {
+	color: #5e83c5;
+}
+
+
+
+
+
+
+
+
+
+
+

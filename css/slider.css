@@ -1,0 +1,52 @@
+/****** SLIDER ******/
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sliderContainer img {
+    vertical-align: middle;
+    object-fit: cover;
+    height: 64vh;
+    width: 100%;
+}
+
+.sliderContainer .btn {
+    display: none;
+    border: none;
+    margin: 0;
+    position: absolute;
+    background-color: #004a8000;
+    height: 64vh;
+    width: 15vw;
+    vertical-align: middle;
+    transition: background-color .8s;
+    text-align: center;
+    line-height: 43vh;
+    font-size: 10vh;
+}
+
+.sliderContainer .btn:hover {
+    background-color: #48669a63;
+}
+.sliderContainer .prev{
+     left: 0;
+ }
+.sliderContainer .next{
+    right: 0;
+}
+
+/* ANONIMACJA */
+#slider {
+    opacity: 1;
+    -webkit-transition: opacity 1s linear 0s;
+    -moz-transition: opacity 1s linear 0s;
+    -ms-transition: opacity 1s linear 0s;
+    -o-transition: opacity 1s linear 0s;
+    transition: opacity 1s linear 0s;
+}
+
+#slider.fadeOut {
+    opacity:0;
+}

@@ -1,0 +1,40 @@
+/******FOOTER******/
+
+.footer {
+    color: #fddfe7;
+    background-color: #5e83c5;
+    padding: 2vh 0;
+}
+
+.footerText {
+	color: white;
+	text-align :right;
+	padding: 1vh;
+	margin-right: 5vh;
+    vertical-align: middle;
+}
+
+.footerTextSmall {
+    display: none;
+    text-align: right;
+    padding: 1vh 6vmin;
+    float: right;
+    vertical-align: middle;
+}
+
+.socialMedia {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin-left: 5vh;
+    padding: 1vh;
+}
+.socialMedia .fb {
+    height: 4vh;
+    width: 4vh;
+    opacity: 1;
+    transition: opacity .8s;
+}
+.socialMedia .fb:hover {
+    opacity: 0.3;
+}

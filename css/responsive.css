@@ -1,0 +1,8 @@
+@media only screen and (min-device-width: 1380px) {
+    .findUs .right .map {
+        display: none;
+    }
+    .findUs .right .mapBigger {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,21 @@
+.news {
+    /*width: 100%;*/
+    background-color: #78a2ed;
+    margin: 0;
+	padding: 4vh 4vw 10vh 4vw;
+}
+
+.news .newsText {
+	max-width: 90vw;
+}
+
+.newsText h3 {
+	text-align: justify;
+	color: #fff;
+    margin: 0;
+	/*padding-top: 2vh;*/
+    line-height: 10vh;
+}
+.news hr {
+	color: #fff;
+}

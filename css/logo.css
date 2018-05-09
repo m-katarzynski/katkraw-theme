@@ -1,0 +1,16 @@
+/******LOGO******/
+
+#logo { /*Kosmetyka - logo*/
+	display: block;
+	font: 400 13vh Lobster;
+	color: #fff;
+}
+
+.caption {
+	position: relative;
+	left: 0;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+}
+

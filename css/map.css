@@ -1,0 +1,52 @@
+.findUs {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #78a2ed;
+    text-align: center;
+}
+
+.findUs .box {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.findUs .left {
+    margin: 25vh 0;
+}
+
+.mapText {
+    margin-left: 5vw;
+}
+
+.findUs .right {
+
+}
+
+.findUs .right .map {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.findUs .right .map iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.findUs .right .mapBigger {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    display: none;
+}
+.findUs .right .mapBigger iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+.map, .mapBigger {
+    margin-right: 5vw;
+}

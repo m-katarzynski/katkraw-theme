@@ -1,0 +1,37 @@
+/******NAVBAR DZIWKO******/
+body div.sticky {
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 10;
+}
+
+body .navbar {
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	list-style-type: none;
+    margin: 0;
+	/*margin-top: -200px;*/
+    padding: 0;
+    width: 100%;
+}
+
+div.navbar a {
+	color: #fff;
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	float: left;
+	width: 16.6666667%;
+	text-align: center;
+	background-color: #5e83c5;
+	padding: 1vh 0;
+	-webkit-transition-duration:0.4s; /* Safari */
+    transition-duration:0.4s;
+}
+
+div.navbar a:hover {
+	color: #5e83c5;
+	background-color: #48669a;
+}

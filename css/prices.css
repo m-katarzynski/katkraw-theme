@@ -1,0 +1,34 @@
+.prices {
+    min-height: 64vh;
+    width: 100%;
+    background-color: #78a2ed;
+    padding: 5vw 0;
+}
+
+.prices pricesText {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    /*margin: auto;*/
+    padding: 6vw;
+
+}
+
+.pricesText h2 {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 6vh;
+}
+.pricesText p{
+    padding: 1vh 10vw;
+}
+
+.pricesText .positions {
+    margin: 0px 27%;
+}
+
+.pricesText .position {
+    display: flex;
+
+}

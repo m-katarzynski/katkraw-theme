@@ -1,0 +1,56 @@
+body, html {
+	margin: 0;
+	font: 400 2vh/1.8 "Lato", sans-serif;
+	color: #fff;
+}
+
+/*sztuczka po chuju kurwa*/
+/* * { border: 1px solid black; }*/
+.pandas img {
+	width: 100%;
+	/*opacity: 0.5;*/
+}
+
+/****** PARALLAXES ******/
+.parallax {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax {
+	background-image: url("../img/par.jpg");
+	height: 30vh;
+}
+
+h3 {
+	text-align:center;
+	letter-spacing: 1vh;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #3a0c24;
+}
+
+/****** LINKI ******/
+.link {
+	text-decoration: none;
+	color: inherit;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+}
+.link:hover {
+	color: #48669a;
+}
+/*.linkF:hover {
+	color: #3a0c24;
+	-webkit-transition-duration:0.4s;
+    transition-duration:0.4s;
+}*/
+/****** BREAKER ******/
+#breaker {
+	width: 100%;
+	height:	50px;
+	background-color: #7c1a4d;
+}
