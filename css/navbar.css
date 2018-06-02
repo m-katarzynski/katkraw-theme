@@ -1,4 +1,4 @@
-/******NAVBAR DZIWKO******/
+/****** NAVBAR ******/
 body div.sticky {
 	top: 0;
 	position: -webkit-sticky;
@@ -11,10 +11,8 @@ body .navbar {
 	position: -webkit-sticky;
 	position: sticky;
 	list-style-type: none;
-    margin: 0;
-	/*margin-top: -200px;*/
-    padding: 0;
-    width: 100%;
+	margin: 0;
+	width: 100%;
 }
 
 div.navbar a {
@@ -28,7 +26,7 @@ div.navbar a {
 	background-color: #5e83c5;
 	padding: 1vh 0;
 	-webkit-transition-duration:0.4s; /* Safari */
-    transition-duration:0.4s;
+	transition-duration:0.4s;
 }
 
 div.navbar a:hover {
