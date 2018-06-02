@@ -4,8 +4,6 @@ body, html {
 	color: #fff;
 }
 
-/*sztuczka po chuju kurwa*/
-/* * { border: 1px solid black; }*/
 .pandas img {
 	width: 100%;
 	/*opacity: 0.5;*/
@@ -33,7 +31,7 @@ h3 {
 	color: #3a0c24;
 }
 
-/****** LINKI ******/
+/****** LINKS ******/
 .link {
 	text-decoration: none;
 	color: inherit;
@@ -43,11 +41,7 @@ h3 {
 .link:hover {
 	color: #48669a;
 }
-/*.linkF:hover {
-	color: #3a0c24;
-	-webkit-transition-duration:0.4s;
-    transition-duration:0.4s;
-}*/
+
 /****** BREAKER ******/
 #breaker {
 	width: 100%;
